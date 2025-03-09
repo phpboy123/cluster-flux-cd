@@ -1,0 +1,7 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+- gitlab-source.yaml
+- gotk-components.yaml
+- gotk-sync.yaml
+- my-app-source.yaml
